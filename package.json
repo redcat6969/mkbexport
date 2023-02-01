@@ -1,7 +1,7 @@
 {
-  "name": "android_resources_export_figma",
+  "name": "mkbexport",
   "version": "1.2.0",
-  "description": "Figma plugin for export Android Resources.",
+  "description": "mkbexport",
   "main": "index.js",
   "scripts": {
     "dev": "npx webpack --mode=development --watch",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ashung/android-res-export-figma.git"
+    "url": "git+https://github.com/redcat6969/mkbexport.git"
   },
-  "author": "Ashung Hung (ashung.hung@foxmail.com)",
+  "author": "dch (ashu.hung@foxmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ashung/android-res-export-figma/issues"
+    "url": "https://github.com/redcat6969/mkbexport/issues"
   },
-  "homepage": "https://github.com/Ashung/android-res-export-figma",
+  "homepage": "https://github.com/redcat6969/mkbexport.git",
   "dependencies": {
     "jszip": "^3.4.0"
   },
