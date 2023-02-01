@@ -1,5 +1,5 @@
 {
-  "name": "Android Resources Export",
+  "name": "mkbexport",
   "id": "735452896889481850",
   "api": "1.0.0",
   "main": "dist/code.js",
