@@ -1,0 +1,25 @@
+{
+  "name": "Android Resources Export",
+  "id": "735452896889481850",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "menu": [
+    {"name": "New PNG", "command": "new-png"},
+    {"name": "Export PNG", "command": "export-png"},
+    {"separator": true},
+    {"name": "New Nine-patch", "command": "new-nine-patch"},
+    {"name": "Export Nine-patch", "command": "export-nine-patch"},
+    {"separator": true},
+    {"name": "New App Icon", "command": "new-app-icon"},
+    {"name": "Export App Icon", "command": "export-app-icon"},
+    {"separator": true},
+    {"name": "Settings", "command": "settings"}
+  ],
+  "relaunchButtons": [
+    {"command": "export-png", "name": "Export PNG Assets", "multipleSelection": true},
+    {"command": "export-nine-patch", "name": "Export Nine-Patch", "multipleSelection": true},
+    {"command": "export-app-icon", "name": "Export App Icon"}
+  ]
+}
